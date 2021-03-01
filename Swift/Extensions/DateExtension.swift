@@ -1,10 +1,10 @@
 extension Date{
  
   //Converts Date to string with the given format
-  func convertToMothYearFormat() -> String{
-    let dateFormatter         = DateFormatter()
-    dateFormatter.dateFormat  = "MMM yyyy"
+     func convertToStringWithDateFormat(format: String) -> String{
+         let dateFormmatrer         = DateFormatter()
+         dateFormmatrer.dateFormat  = format
         
-    return dateFormatter.string(from: self)
-  }  
+         return dateFormmatrer.string(from: self)
+    }
 }
