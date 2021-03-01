@@ -6,7 +6,7 @@ Second array = Array of string with elements to assing as a property of the obje
 Iterate over the first array and set the values to the object with the help of a index variable 
 to check if the second array ran out of elements to reset the index to interate it again.
 
-USE CASE: To iterate an array with least elements that another array in a foreach
+USE CASE: To iterate an array with least elements that another array in a foreach 
 
 */
 
